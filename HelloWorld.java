@@ -7,17 +7,15 @@ class HelloWord{
 	public static void main(String a[]){
 
 		/*System.out.println("Hallo Welt");*/
-		HelloWorld.print();
+		new HelloWorld().print("Hello World");
 
 	}
 	
+	void print(String message){
 	
-
-	static void print(){
 	
-		System.out.println("Hallo Welt");
-	}
-
+		System.out.println(message);
+	
 
 }
 
